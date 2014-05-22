@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		942A565E192DB0C10020F9F5 /* imageTest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 942A565D192DB0C10020F9F5 /* imageTest.jpg */; };
 		946EDBB4192DAC0C004D6FEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 946EDBB3192DAC0C004D6FEA /* Foundation.framework */; };
 		946EDBB6192DAC0C004D6FEA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 946EDBB5192DAC0C004D6FEA /* CoreGraphics.framework */; };
 		946EDBB8192DAC0C004D6FEA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 946EDBB7192DAC0C004D6FEA /* UIKit.framework */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		942A565D192DB0C10020F9F5 /* imageTest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = imageTest.jpg; sourceTree = "<group>"; };
 		946EDBB0192DAC0C004D6FEA /* acordionTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = acordionTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		946EDBB3192DAC0C004D6FEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		946EDBB5192DAC0C004D6FEA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -112,6 +114,7 @@
 		946EDBB9192DAC0C004D6FEA /* acordionTest */ = {
 			isa = PBXGroup;
 			children = (
+				942A565D192DB0C10020F9F5 /* imageTest.jpg */,
 				946EDBC2192DAC0C004D6FEA /* AppDelegate.h */,
 				946EDBC3192DAC0C004D6FEA /* AppDelegate.m */,
 				946EDBC5192DAC0C004D6FEA /* Main.storyboard */,
@@ -229,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				946EDBCC192DAC0C004D6FEA /* Images.xcassets in Resources */,
+				942A565E192DB0C10020F9F5 /* imageTest.jpg in Resources */,
 				946EDBBE192DAC0C004D6FEA /* InfoPlist.strings in Resources */,
 				946EDBC7192DAC0C004D6FEA /* Main.storyboard in Resources */,
 			);
@@ -460,6 +464,7 @@
 				946EDBE4192DAC0D004D6FEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		946EDBE5192DAC0D004D6FEA /* Build configuration list for PBXNativeTarget "acordionTestTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +473,7 @@
 				946EDBE7192DAC0D004D6FEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
